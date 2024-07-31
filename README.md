@@ -29,45 +29,50 @@ Healthvider is built using the MERN stack:
 To run Healthvider locally, follow these steps:
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/healthvider.git
-    cd healthvider
-    ```
+
+   ```bash
+   git clone https://github.com/jeetuS123/Healthvider.git
+   cd Healthvider
+   ```
 
 2. **Install backend dependencies**:
-    ```bash
-    cd server
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 3. **Install frontend dependencies**:
-    ```bash
-    cd ../client
-    npm install
-    ```
+
+   ```bash
+   cd client
+   npm install
+   ```
 
 4. **Set up environment variables**:
-    Create a `.env` file in the `server` directory and add the following environment variables:
-    ```plaintext
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    ```
+   Create a `.env` file in the `Healthvider` directory and add the following environment variables:
+
+   ```plaintext
+   PORT=your_server_running_port
+   DEV_MODE=development
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
 
 5. **Run the application**:
-    Open two terminal windows/tabs:
-    - In the first terminal, start the backend server:
-        ```bash
-        cd server
-        npm start
-        ```
-    - In the second terminal, start the frontend development server:
-        ```bash
-        cd client
-        npm start
-        ```
+   Open two terminal windows/tabs:
+
+   - In the first terminal, start the backend server:
+     ```bash
+     npm start
+     ```
+   - In the second terminal, start the frontend development server:
+     ```bash
+     cd client
+     npm start
+     ```
 
 6. **Access the application**:
-    Open your web browser and go to `http://localhost:3000`.
+   Open your web browser and go to `http://localhost:3000`.
 
 ## Usage
 
@@ -85,6 +90,5 @@ We welcome contributions to Healthvider. If you'd like to contribute, please for
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Create a new Pull Request
-
 
 Thank you for using Healthvider!
