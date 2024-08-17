@@ -11,6 +11,7 @@ const moment = require("moment");
 const registerController = async (req, res) => {
   try {
     const { name, email, password } = req.body;
+    
     if (!name) {
       return res.send({
         message: "enter the name",
