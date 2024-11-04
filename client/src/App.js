@@ -8,12 +8,12 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import PublicRoute from "./components/PublicRoute";
 import ApplyDoctor from "./pages/applyDoctor";
 import NotificationPage from "./pages/NotificationPage";
-import { Doctor } from "./pages/admin/Doctor";
+import Doctor from "./pages/admin/Doctor";
 import User from "./pages/admin/User";
-import Profile from "./pages/docor/Profile";
+import Profile from "./pages/doctor/Profile";
 import BookingPage from "./pages/BookingPage";
 import Appointments from "./pages/Appointments";
-import DoctorAppointment from "./pages/docor/DoctorAppointment";
+import DoctorAppointment from "./pages/doctor/DoctorAppointment";
 
 function App() {
   const { loading } = useSelector((state) => state.alerts);
